@@ -46,7 +46,6 @@
 
 .wrapper-todo__tasks {
 	flex: 0 1 auto;
-	background-color: grey;
 	display: flex;
 	justify-content: center;
 	margin: 0 auto;
@@ -74,10 +73,15 @@
 	color: #fff;
 	line-height: 160%;
 	letter-spacing: 2px;
-	max-width: 412px;
+	/* max-width: 412px; */
+	flex: 0 1 412px;
 	padding-top: 5px;
 	padding-right: 10px;
 	text-align: inherit;
+}
+
+#crossed {
+	text-decoration: line-through;
 }
 
 .btn-cross {
